@@ -13,8 +13,8 @@ char auth[] = "2a5ccab7134747769aa2004910660f77";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Abhi"; //AndroidAP1F0F
-char pass[] = "97lahiri";//ndom3914
+char ssid[] = "user_id";
+char pass[] = "password";
 //char *thingSpeakAddress = "api.thingspeak.com";
 //unsigned long channelID = 780005;
 //char* readAPIKey = "4S5T8DLBCRSXZ2A8";
@@ -87,4 +87,5 @@ void loop()
   Blynk.run();
   timer.run();
 }
+
 
