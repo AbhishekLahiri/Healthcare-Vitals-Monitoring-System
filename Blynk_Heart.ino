@@ -8,8 +8,8 @@ BlynkTimer timer;
 char auth[] = "2a5ccab7134747769aa2004910660f77";            // You should get Auth Token in the Blynk App.
                                            // Go to the Project Settings (nut icon).
 
-char ssid[] = "NETGEAR_HANRA";    // Your WiFi credentials.
-char pass[] = "Scpapa@1961";  // Set password to "" for open networks.
+char ssid[] = "username";    // Your WiFi credentials.
+char pass[] = "password";  // Set password to "" for open networks.
 
 void setup() {
   Serial.begin(115200);
@@ -33,5 +33,6 @@ void loop() {
   timer.run();
  
 }
+
 
 
