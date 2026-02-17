@@ -108,6 +108,8 @@ Temperature Sensor:
 
 Ensure proper voltage compatibility between sensors and NodeMCU (3.3V logic).
 
+![Circuit Image](circuit_image.jpeg)
+
 ---
 
 ## 7. Usage
